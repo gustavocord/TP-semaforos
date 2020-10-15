@@ -1,4 +1,6 @@
 # Trabajo practico de Sistemas Operativos y redes - Hilos y semaforos
+Alumno: Gustavo Cordoba
+
 -En la cocina de Hell’s Burgers compiten tres equipos de cocineros. ¿Quién será el primero en entregar la hamburguesa ? La dificultad de la competencia es que la cocina no cuenta con el equipamiento individual para cada equipo, sino que algunos de ellos son compartidos. Se tienen que ordenar para cocinar los medallones ya que solo tienen una plancha para todos los equipos y esta cocina un medallón a la vez, existe solo un horno que cocina dos panes a la vez y un solo salero.-
 
 ## implementaciones
@@ -10,7 +12,7 @@
 * El archivo resultado.txt contiene el resultado y un log de lo que sucedio en la competencia como quien gano y la accion de cada equipo en tiempo real
 
 
-## Procedimiento 🚀
+## Procedimiento 
  Inicialmente se definierom  los mutex y los semaforos compartidas junto con una variable que indicara el puesto de cada equipo al finalizar la ejecucion .
  Hilos y Semaforos : Para cada hilo se implementaron 8 semaforos individuales para las acciones que requieren compartir equipamiento .
  Ademas se utilizaron 3 mutex  para las acciones que requieren compartir equipamiento  
@@ -21,9 +23,9 @@ _ El trabajo requirio mucha investigacion en si y se dificulto bastante ya que n
 
 
 ### Ejecución :man_technologist:	
-_El archivo debe ser compilado y ejecutado por consola, preferentemente en un ambiente Linux_
+
 ```
-Compilar:   gcc HellsBurgers.c -o ejecutable -lpthread
+Compilar:   gcc Hamburguesa.c -o ejecutable -lpthread
 Ejecutar:   ./ejecutable
 ```
 
